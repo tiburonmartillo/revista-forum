@@ -39,6 +39,21 @@ body{
     height: 50vh;
     padding: 0%;
     background-image: url(/assets/img/gto.jpg);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen > .linea-imagen{
+position: absolute;
+width: 98%;
+}
+.imagen > .linea-imagen >.revista{
+    display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 50px;
+  /* transform: translateY(100%); */
 }
 
 .tarjeta-rosa{
